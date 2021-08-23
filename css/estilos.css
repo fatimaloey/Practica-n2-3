@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.impo{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#B1BEF2 ,#FFFFFF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen{
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    border: solid 15px #F5C4E2;
+}
+.channie{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.sombra-texto{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(transparent, #8FB1EF);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.sombra-texto h1{
+    text-align: center;
+    color: white;
+}
